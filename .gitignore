@@ -1,0 +1,55 @@
+### .NET ###
+# Derleme çıktıları
+bin/
+obj/
+
+# NuGet paketleri
+.nuget/
+*.nupkg
+packages/
+
+# Local tool cache
+.dotnet/
+
+# Rider/ReSharper önbellek
+*.sln.iml
+.idea/
+
+# Visual Studio ayarları
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Derleme logları
+buildlog.*
+
+# MSBuild
+*.csproj.user
+*.pubxml
+
+# Roslyn cache
+*.ide/
+
+### Avalonia ###
+# Avalonia derleme sırasında oluşan önbellek dosyaları
+avalonia/
+
+# Avalonia Previewer önbelleği (isteğe bağlı)
+**/Preview/*.cache
+
+### OS ###
+# İşletim sistemi dosyaları
+Thumbs.db
+.DS_Store
+*.swp
+
+### Test Results ###
+TestResults/
+*.trx
+
+### Local Development ###
+.env
+*.local
